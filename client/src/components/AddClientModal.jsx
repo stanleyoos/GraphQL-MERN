@@ -25,7 +25,7 @@ const AddClientModal = () => {
     <>
       <button
         type="button"
-        className="btn btn-secondary"
+        className="btn btn-light"
         data-bs-toggle="modal"
         data-bs-target="#addClientModal"
       >
@@ -82,7 +82,7 @@ const AddClientModal = () => {
                 />
 
                 <button
-                  className="btn btn-secondary"
+                  className="btn btn-secondary mt-3"
                   type="submit"
                   data-bs-dismiss="modal"
                 >

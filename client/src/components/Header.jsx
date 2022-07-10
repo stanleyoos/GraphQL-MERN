@@ -1,12 +1,14 @@
+import { Link } from 'react-router-dom'
+
 const Header = () => {
   return (
     <nav className="navbar bg-light mb-4 p-0">
       <div className="container">
-        <a className="navbar-brand" href="/">
+        <Link to="/" className="text-decoration-none m-2">
           <div className="d-flex">
-            <h2 className="mr2">GrqphQL</h2>
+            <h2 className="mr4">Projects Dashboard</h2>
           </div>
-        </a>
+        </Link>
       </div>
     </nav>
   )
